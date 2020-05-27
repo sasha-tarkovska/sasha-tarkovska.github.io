@@ -1,0 +1,11 @@
+header {
+    background-color: #f7d791;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .box {
+    width: 100%;
+    max-width: 600px;
+}

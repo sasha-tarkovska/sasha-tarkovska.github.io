@@ -1,0 +1,91 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-size: 18px;
+    
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header,
+section {
+    padding: 60px 30px;
+}
+
+header {
+    min-height: 100vh;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+
+a {
+    display: block;
+    max-width: 100%;
+}
+
+p {
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 1.5em;
+/*    letter-spacing: .01em;*/
+}
+
+section {
+    font-size: 1.15rem;
+    color: rgba(255,255,255,.6);
+    background-color: #4a5697;
+    position: relative;
+}
+
+section .txt {
+    font-size: 1em;
+    width: 100%;
+    margin: auto;
+    max-width: 600px;
+    text-align: justify;
+    position: relative;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+}
+
+section .foot {
+    font-size: 1em;
+    width: 100%;
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+    position: center;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto  
+    }
+a {
+ color: aliceblue;
+}
+section .img-box {
+    width: 100%;
+    max-width: 600px;
+    margin:auto;
+    margin-bottom: 2em;
+}
+
+@media screen and (orientation:portrait) and (max-width:767px) {
+    section {
+        font-size: 1rem;
+    }
+}
